@@ -1,3 +1,5 @@
+# [فارسی](https://github.com/NaliTeam/AutoNode/blob/main/README-fa.md)
+
 # Node Addition Script
 
 To set up and run the Node Addition Script, execute the following command in your terminal(anywhere):
