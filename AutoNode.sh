@@ -32,6 +32,9 @@ while true; do
 
             # Write the user input into the ssl_client_cert.pem file
             echo \"$cert_content\" | sudo tee /var/lib/marzban-node/ssl_client_cert.pem > /dev/null
+
+            cd /root/Marzban-node
+            docker compose restart
         "
 
         echo "Node addition process completed."
