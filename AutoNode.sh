@@ -28,8 +28,8 @@ while true; do
             sudo touch /var/lib/marzban-node/ssl_client_cert.pem
 
             # Uncomment the SSL_CLIENT_CERT_FILE line in the file (if commented)
-            sed -i 's/^ *#//' /root/Marzban-node/docker-compose.yml
-
+            sed -i 's/^ *# *SSL_CLIENT_CERT_FILE/      SSL_CLIENT_CERT_FILE/' /root/Marzban-node/docker-compose.yml
+            
             # Write the user input into the ssl_client_cert.pem file
             echo \"$cert_content\" | sudo tee /var/lib/marzban-node/ssl_client_cert.pem > /dev/null
 
