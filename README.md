@@ -14,8 +14,3 @@ sudo bash -c "$(curl -sL https://raw.githubusercontent.com/NaliTeam/AutoNode/mai
 2. Insert Certificate from Marzban Panel: Copy the certificate from your Marzban panel and paste it into the script. Press CTRL + D twice to proceed.
 
 3. Enter Node Password: Input the node password as prompted and wait for the script to complete.
-
-4. Don't forget to restart the Marzban panel after completion using:
-```bash
-marzban restart
-```
