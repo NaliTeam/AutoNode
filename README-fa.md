@@ -13,7 +13,3 @@ sudo bash -c "$(curl -sL https://raw.githubusercontent.com/NaliTeam/AutoNode/mai
 
 3. Enter Node Password: در این فیلد رمز نود خود را وارد کنید و منتظر بمانید
 
-4. :یادتون نره در آخر حتما باید مرزبان رو ریستات کنیم
-```bash
-marzban restart
-```
